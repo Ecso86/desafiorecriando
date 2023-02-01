@@ -4,71 +4,71 @@
   box-sizing: border-box;
 }
 
-
 main {
-width: 626px;
-margin: 64px auto 240px;
-
+  text-align: center;
+  width: auto;
+  margin: 64px auto 240px;
 }
 
-main img {
- margin-left: 62px;
- 
+#main {
+  margin-bottom: 32px;
 }
 
 h1 {
   font-family: 'Dosis', sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 40.45px;
-  letter-spacing: 0em;
-  text-align: auto;
-  color: #3f3d56;
+  font-weight: normal;
+  color: #3F3D56;
 
+  margin-bottom: 16px;
+  
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  width: 540px;
-  font-weight: 400;
-  font-size: 15px;
   color: #828282;
-  max-width: 540px;
-  margin-top: 32px;
-  
-  
+  font-size: 15px;
+  line-height: 22px;
+
 }
 
-strong {
-  color: #3f3d56;
+#meio {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+strong, a {
+  color: #3F3D56;
   font-weight: bold;
+
+}
+
+.flutuar {
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+footer, p {
+  font-family: 'Open Sans', sans-serif;
+  
 }
 
 span {
-color: #ee24ff;
-font-weight: bold;
-}
-
-
-#footer {
-text-align: center;
-
-
-}
-
-a {
-
-  font-family: 'Open Sans', sans-serif;
+  color: #EE24FF;
   font-weight: bold;
-  text-align: center;
-  font-size: 15px;
-  margin-right: 110px;
-  color: #3f3d56 ;
-
 }
 
-#wave {
-  width: 100vw;
-  margin: 50px:
+div {
+  text-align: center;
+  margin-left: 42px;
+}
 
+footer {
+  margin-bottom: 43px;
+}
+
+a + a {
+  margin-left: 42px;
+}
+
+.onda {
+  width: 100vw;
 }
